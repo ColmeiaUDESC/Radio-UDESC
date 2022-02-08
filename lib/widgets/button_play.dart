@@ -1,15 +1,21 @@
-// ignore_for_file: prefer_const_constructors
+// ignore_for_file: prefer_const_constructors, use_key_in_widget_constructors, unused_field, avoid_print, unused_import
 
 import 'package:flutter/material.dart';
+import 'package:just_audio/just_audio.dart';
 
 class ButtonPlay extends StatefulWidget {
-  const ButtonPlay({Key? key}) : super(key: key);
+  final String _url;
+
+  const ButtonPlay(this._url);
 
   @override
-  _ButtonPlayState createState() => _ButtonPlayState();
+  State<ButtonPlay> createState() => _ButtonPlayState();
 }
 
 class _ButtonPlayState extends State<ButtonPlay> {
+
+  
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -24,12 +30,12 @@ class _ButtonPlayState extends State<ButtonPlay> {
             RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(100),
               side: BorderSide(
-                color: Colors.black,
+                color: Theme.of(context).colorScheme.secondary,
               ),
             ),
           ),
         ),
-        onPressed: null,
+        onPressed: () {},
         label: Text('PLAY'),
       ),
     );

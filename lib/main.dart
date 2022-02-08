@@ -18,7 +18,8 @@ class MyApp extends StatelessWidget {
         title: 'Radio Udesc',
       ),
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.yellow).copyWith(secondary: Colors.black),
+        colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.yellow)
+            .copyWith(secondary: Colors.black),
       ),
     );
   }
@@ -62,7 +63,30 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const ButtonPlay(),
+            Column(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: <Widget>[
+                const Text(
+                  'Você está ouvindo',
+                  style: TextStyle(
+                    fontSize: 20,
+                  ),
+                ),
+                const SizedBox(
+                  height: 20,
+                ),
+                const Text(
+                  'Udesc FM Joinville - FM 91,9 MHz',
+                  style: TextStyle(
+                    fontSize: 20,
+                  ),
+                ),
+              ],
+            ),
+            const SizedBox(height: 50),
+            const ButtonPlay(
+                'https://cast.youngtech.radio.br/radio/8410/radio'),
           ],
         ),
       ),
