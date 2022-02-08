@@ -1,0 +1,10 @@
+/home/bert/Colmeia/Radio-UDESC/build/linux/x64/debug/bundle/radio_udesc
+/home/bert/Colmeia/Radio-UDESC/build/linux/x64/debug/bundle/data/icudtl.dat
+/home/bert/Colmeia/Radio-UDESC/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so
+/home/bert/Colmeia/Radio-UDESC/build/linux/x64/debug/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+/home/bert/Colmeia/Radio-UDESC/build/linux/x64/debug/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+/home/bert/Colmeia/Radio-UDESC/build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json
+/home/bert/Colmeia/Radio-UDESC/build/linux/x64/debug/bundle/data/flutter_assets/version.json
+/home/bert/Colmeia/Radio-UDESC/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES.Z
+/home/bert/Colmeia/Radio-UDESC/build/linux/x64/debug/bundle/data/flutter_assets/kernel_blob.bin
+/home/bert/Colmeia/Radio-UDESC/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.json
